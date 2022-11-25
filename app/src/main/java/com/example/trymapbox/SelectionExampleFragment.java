@@ -26,11 +26,15 @@ public class SelectionExampleFragment extends Fragment {
 
     }
 
+    @Override
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
         binding.buttonMyLocationExample.setOnClickListener(view1 ->
                 Navigation.findNavController(view1).navigate(R.id.action_SelectionExampleFragment_to_ShowMyLocationFragment));
+        binding.searchPlace.setOnClickListener(view1 ->
+                Navigation.findNavController(view1).navigate(R.id.action_SelectionExampleFragment_to_searchPlaceFragment));
+
     }
 
     @Override

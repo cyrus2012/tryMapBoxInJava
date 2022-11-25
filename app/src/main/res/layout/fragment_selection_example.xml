@@ -14,4 +14,11 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/show_my_location" />
 
+    <Button
+        android:id="@+id/search_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/search_place" />
+
 </LinearLayout>
