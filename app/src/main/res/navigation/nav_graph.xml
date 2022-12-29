@@ -24,10 +24,18 @@
         <action
             android:id="@+id/action_SelectionExampleFragment_to_searchPlaceFragment"
             app:destination="@id/searchPlaceFragment" />
+        <action
+            android:id="@+id/action_SelectionExampleFragment_to_routeFragment"
+            app:destination="@id/routeFragment" />
     </fragment>
     <fragment
         android:id="@+id/searchPlaceFragment"
         android:name="com.example.trymapbox.SearchPlaceFragment"
         android:label="fragment_search_place"
         tools:layout="@layout/fragment_search_place" />
+    <fragment
+        android:id="@+id/routeFragment"
+        android:name="com.example.trymapbox.RouteFragment"
+        android:label="fragment_route"
+        tools:layout="@layout/fragment_route" />
 </navigation>

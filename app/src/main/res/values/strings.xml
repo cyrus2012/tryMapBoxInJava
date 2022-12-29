@@ -13,5 +13,10 @@
     <string name="search_place">Search Place</string>
     <string name="select_example">Select examples</string>
     <string name="show_my_location">show my location</string>
+    <string name="request_and_draw_routes">Request and draw routes</string>
 
+    <string name="route1">Route 1 </string>
+    <string name="route2">Route 2</string>
+    <string name="route3">Route 3</string>
+    
 </resources>

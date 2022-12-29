@@ -34,6 +34,8 @@ public class SelectionExampleFragment extends Fragment {
                 Navigation.findNavController(view1).navigate(R.id.action_SelectionExampleFragment_to_ShowMyLocationFragment));
         binding.searchPlace.setOnClickListener(view1 ->
                 Navigation.findNavController(view1).navigate(R.id.action_SelectionExampleFragment_to_searchPlaceFragment));
+        binding.requestAndDrawRoute.setOnClickListener(view1 ->
+                Navigation.findNavController(view1).navigate(R.id.action_SelectionExampleFragment_to_routeFragment));
 
     }
 
